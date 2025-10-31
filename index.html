@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wubnesh Guade Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+ <canvas id="bgCanvas"></canvas>
+    <button id="theme-toggle" class="theme-btn">Moon</button>
+
+    <header class="header">
+        <a href="#home" class="logo" id="logo">WUBNESH <span>GUADE</span></a>
+        <i class="bx bx-menu" id="menu-icon" aria-label="Toggle navigation"></i>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>WUBNESH</span></h1>
+            <h2><span class="animations"></span></h2>
+            <p> <strong> Hello! wellcome to visite my portfolio</strong> <br>
+                 I'm Wubnesh, I am a dedicated Computer Science <br>student at the University of Gondar,
+                  <br>currently I study full-stack web development skills 
+                  <br>with a clear vision to become a professional web<br> 
+                  and AI-powered application developer.</p>
+            <div class="btn-group">
+                <div class="social-icons">
+                    <a href="https://github.com/wubneshguade21" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=wubneshg21@gmail.com"><i class='bx bxl-gmail'></i></a>
+                    <a href="https://t.me/wubnesh" target="_blank"><i class='bx bxl-telegram'></i></a>
+                </div>
+                <a href="#" class="btn">Work With Me</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="p1.jpg" alt="Wubnesh Guade">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="p1.jpg" alt="Wubnesh Guade">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <div class="image-section">
+                <p>Hi, let me introduce myself. I live in Addis Ababa and completed my education at Addis Ketema Preparatory School. <br>
+                    I actively participated in different school clubs and really enjoyed the experience.<br>
+                    Currently, I am studying Computer Science at the University of Gondar.""<br>
+                    "I have some skills in HTML, CSS, JavaScript for frontend development,<br>
+                     C++ and Java for backend development, and PostgreSQL for database management.".<br>
+                      I am passionate about web development and clean design. <br>
+                    I have completed professional certificates in Android Development, <br>
+                    Artificial Intelligence, Database Management, and English Communication, <br>
+                    which strengthened my skills in mobile apps, machine learning, data management, and effective teamwork.</p>
+                <div class="image-box-container">
+                    <div class="image-box"><img src="And.jpg" alt="Android"></div>
+                    <div class="image-box"><img src="art.jpg" alt="Artificial Intelligence"></div>
+                    <div class="image-box"><img src="databas.jpg" alt="Database"></div>
+                    <div class="image-box"><img src="acss.jpg" alt="English"></div>
+                </div>
+            </div>
+            <h3>Contact Details</h3>
+            <div class="personal-info">
+                <p><i class='bx bx-user'></i>Name: Wubnesh Guade</p>
+                <p><i class='bx bx-phone'></i>Phone: +251-97540-5568</p>
+                <p><i class='bx bxl-gmail'></i> Email: wubneshguade21@gmail.com</p>
+                <p><i class='bx bxl-github'></i> GitHub: <a href="https://github.com/wubneshguade21" target="_blank">wubneshguade21</a></p>
+                <p><i class='bx bxl-telegram'></i> Telegram: <a href="https://t.me/wubneshguade" target="_blank">@wubneshguade</a></p>
+            </div>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>My</span> Skills</h2>
+        <div class="skills-container">
+            <div class="skills-card">
+                <div class="skills-info">
+                    <i class='bx bx-code-alt'></i>
+                    <h4>Frontend</h4>
+                    <p><i class='bx bxl-html5'></i> HTML5</p>
+                    <p><i class='bx bxl-css3'></i> CSS3</p>
+                    <p><i class='bx bxl-javascript'></i> JavaScript</p>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-info">
+                    <i class='bx bx-server'></i>
+                    <h4>Backend</h4>
+                    <p><i class='bx bxl-java'></i> Java </p>
+                    <p><i class='bx bxl-c-plus-plus'></i> C++</p>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-info">
+                    <i class='bx bx-data'></i>
+                    <h4>Database</h4>
+                    <p><i class='bx bxl-postgresql'></i> PostgreSQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading"><span>My</span> Projects</h2>
+        <div class="projects-box">
+            <div class="projects-card">
+                <img src="cal.jpg" alt="Calculator">
+                <h3>Calculator</h3>
+                <p>Simple web calculator with JavaScript.</p>
+                <a href="https://wubneshguade21.github.io/-calculator-HCJ/" target="_blank" class="btn">View</a>
+                <a href=https://github.com/wubneshguade21/-calculator-HCJ>
+                                        <i class="bx bxl-github" style="font-size: 5rem; color: var(--main-color);"></i>
+                                        <span class="tooltip" >Github Repository code</span>
+            </div>
+            <div class="projects-card">
+                <img src="logi.jpg" alt="Login">
+                <h3>Login System</h3>
+                <p>User authentication with frontend &</p>
+                <a href="https:https://wubneshguade21.github.io/register/" target="_blank" class="btn">View</a>
+
+                <div class="portfolio-icon work-icon">
+                                    
+                                    <a href="https://github.com/wubneshguade21/register">
+                                        <i class="bx bxl-github" style="font-size: 5rem; color: var(--main-color);"></i>
+                                        <span class="tooltip" >Github Repository view code</span>
+                                    </a>
+                                </div>
+            </div>
+            <div class="projects-card">
+
+                <img src="cala.jpg" alt="Calendar">
+                <h3>Interactive Calendar</h3>
+                <p>Canvas-based date picker.</p>
+                <a href=" https://wubneshguade21.github.io/new-calander/" target="_blank" class="btn">View</a>
+                <a href=https://github.com/wubneshguade21/new-calander>
+                                        <i class="bx bxl-github" style="font-size: 5rem; color: var(--main-color);"></i>
+                                        <span class="tooltip" >Github Repository view code</span>
+                                    </a>
+            </div>
+            <div class="additional">
+                <a href="https://github.com/wubneshguade21/-ALGORITHM-AND-OOP" class="gradient-btn" target="_blank">
+                    VIEW OTHER PROJECTS ON GITHUB
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://mail.google.com/mail/?view=cm&fs=1&to=wubneshg21@gmail.com" method="POST" id="contactForm">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" id="emailInput" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="phone" id="phoneInput" placeholder="Phone Number">
+                    <span class="error-message" id="phoneError"></span>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="input-group-2">
+                <input type="hidden" name="_subject" value="New Message from Portfolio">
+                <input type="text" name="_honey" style="display:none">
+                <input type="submit" value="Send message" class="btn">
+                <input type="reset" value="Clear" class="btn">
+            </div>
+        </form>
+        <div id="successMessage" class="success-message">Message sent!</div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/wubneshguade21" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=wubneshg21@gmail.com"><i class='bx bxl-gmail'></i></a>
+            <a href="https://t.me/wubnesh" target="_blank"><i class='bx bxl-telegram'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <p class="copyright">© 2025 Wubnesh Guade. All Rights Reserved.</p>
+    </footer>
+
+    <div class="image-modal" id="imageModal">
+        <i class='bx bx-x' id="closeModal"></i>
+        <img src="p1.jpg" alt="Wubnesh Guade">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
